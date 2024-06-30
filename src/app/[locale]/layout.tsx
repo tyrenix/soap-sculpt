@@ -37,7 +37,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
         openGraph: {
             title: t('name'),
             description: t('description'),
-            images: `${envConstants.NEXT_PUBLIC_NEXT_HOST}/icons/logo1024.png`
+            images: `${envConstants.NEXT_PUBLIC_NEXT_HOST}/logo1024.png`
         }
     }
 }
