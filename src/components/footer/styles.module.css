@@ -1,0 +1,130 @@
+.hr {
+    height: 1px;
+    width: var(--appWidth);
+    margin-top: 3rem;
+    border: none;
+    background-color: var(--secondaryColor);
+    border-radius: 20px;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(var(--primaryColorRGB), .4);
+    backdrop-filter: blur(48px);
+}
+
+.wrapper {
+    height: 100%;
+    width: var(--appWidth);
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nav > a { 
+    color: var(--primaryInvertColor);
+    text-decoration: none;
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+    font-weight: 400;
+    box-sizing: border-box;
+    border-radius: 15px;
+    transition: .3s ease color;
+}
+
+.social {
+    height: 100%;
+    margin-left: auto;
+    display: flex;
+    align-items: flex-end;
+    gap: 7px;
+}
+
+.social > a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: .3s ease filter;
+}
+
+.social > a > svg {
+    width: 28px;
+    height: 28px;
+}
+
+.telegramLink { 
+    background-color: #0088cc;
+    color: #fff;
+}
+
+.telegramLink > svg {
+    margin-left: -1px;
+}
+
+.vkLink { 
+    background-color: #45668e;
+    color: #fff;
+}
+
+.info {
+    position: relative;
+    width: var(--appWidth);
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info > p {
+    padding: 0;
+    margin: 0;
+    font-size: .7rem;
+    line-height: .8rem;
+    font-weight: 400;
+    color: var(--secondaryColor);
+}
+
+.infoCreater {
+    position: absolute;
+    right: 0;
+}
+
+.infoCreater > a {
+    text-decoration: none;
+    color: var(--secondaryColor);
+}
+
+@media (hover: hover) {
+    .nav > a:hover {
+        color: var(--actionColor);
+    }
+
+    .social > a:hover {
+        filter: brightness(80%);
+    }
+}
+
+@media (hover: none) {
+    .nav > a:active {
+        color: var(--actionColor);
+    }
+
+    .social > a:active {
+        filter: brightness(80%);
+    }
+}

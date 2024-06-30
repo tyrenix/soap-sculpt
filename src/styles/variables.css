@@ -1,0 +1,40 @@
+:root {
+    --primaryColor: #f8f5f1;
+    --primaryColorRGB: 248, 245, 241;
+    --primaryInvertColor: #070a0e;
+    --secondaryColor: #8c939f;
+    --contentBgColor: #fff;
+    --actionColor: #ef897c;
+    --accentColor: #e2a495;
+    --shadowColor: rgba(213, 221, 236, .4);
+
+    --appWidth: 75%;
+}
+
+body.light {
+    --primaryColor: #f8f5f1;
+    --primaryColorRGB: 248, 245, 241;
+    --primaryInvertColor: #070a0e;
+    --secondaryColor: #8c939f;
+    --contentBgColor: #fff;
+    --actionColor: #ef897c;
+    --accentColor: #e2a495;
+    --shadowColor: rgba(213, 221, 236, .4);
+}
+
+body.dark {
+    --primaryColor: #070a0e;
+    --primaryColorRGB: 7, 10, 14;
+    --primaryInvertColor: #f8f5f1;
+    --secondaryColor: #8c939f;
+    --contentBgColor: #000000;
+    --actionColor: #ef897c;
+    --accentColor: #e2a495;
+    --shadowColor: rgba(42, 24, 19, .4);
+}
+
+@media (max-width: 1070px) {
+    :root {
+        --appWidth: 90%;
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "Seo": {
+        "title": {
+            "full": "SoapSculpt",
+            "accent": "Soap",
+            "standart": "Sculpt"
+        },
+        "name": "SoapSculpt - soap for true connoisseurs",
+        "description": "Handmade soap for true connoisseurs. Choose your scent, shape, and composition. Create your unique piece!"
+    },
+    "Not-found": {
+        "title": "Page not found"
+    },
+    "About": {
+        "hero": {
+            "title": "Handmade soap for true connoisseurs",
+            "description": "Choose your scent, shape, and composition. Create your unique piece!",
+            "mainButton": "Go to catalog"
+        },
+        "benefits": {
+            "title": "Why choose us?",
+            "list": [
+                {
+                    "title": "Natural ingredients",
+                    "image": "/images/main/benefits/naturalIngredients.webp"
+                },
+                {
+                    "title": "Unique shapes and designs",
+                    "image": "/images/main/benefits/uniqueDesign.webp"
+                },
+                {
+                    "title": "Eco-friendly packaging",
+                    "image": "/images/main/benefits/ecoPackage.webp"
+                }
+            ],
+            "count-list": "3",
+            "list-button": "Go to catalog"
+        },
+        "products": {
+            "title": "Our best products",
+            "list": [
+                {
+                    "title": "Turquoise",
+                    "price": "1499",
+                    "image": "/images/main/products/item1.webp"
+                },
+                {
+                    "title": "Green",
+                    "price": "1099",
+                    "image": "/images/main/products/item2.webp"
+                },
+                {
+                    "title": "Heart",
+                    "price": "599",
+                    "image": "/images/main/products/item3.webp"
+                },
+                {
+                    "title": "Colorful",
+                    "price": "599",
+                    "image": "/images/main/products/item4.webp"
+                }
+            ],
+            "count-list": "4",
+            "list-button": "Add to cart"
+        },
+        "making": {
+            "title": "How do we make our soap?"
+        },
+        "testimonials": {
+            "title": "Customer reviews",
+            "list": [
+                {
+                    "name": "Liza",
+                    "text": "I am delighted with the custom soap! I ordered it with the image of my favorite flower and I can't get enough of the result. The soap lathers well, moisturizes the skin, and smells pleasant. Very happy with the purchase!",
+                    "image": "/images/main/testimonials/woman1.webp"
+                },
+                {
+                    "name": "Maxim",
+                    "text": "Custom soap is my find of the year! I gave it to my friend with the image of her favorite animal and she was delighted. Great quality and an original gift!",
+                    "image": "/images/main/testimonials/man.webp"
+                },
+                {
+                    "name": "Lina",
+                    "text": "This handmade soap is real magic for the skin! It not only gently cleanses but also tenderly cares for it. The scents are simply enchanting! I recommend it to everyone! 🌿🚿🌺",
+                    "image": "/images/main/testimonials/woman2.webp"
+                },
+                {
+                    "name": "Vika",
+                    "text": "This soap turned out to be a real discovery! Exquisite natural ingredients not only gently cleanse the skin but also leave a feeling of softness and hydration. The scents are simply enchanting. Very happy with the purchase! 🌿🌸✨",
+                    "image": "/images/main/testimonials/woman3.webp"
+                }
+            ],
+            "count-list": "4"
+        },
+        "subscription": {
+            "title": "Subscribe",
+            "description": "Subscribe to our news about new products and promotions!",
+            "form": {
+                "input": "Enter email",
+                "button": "Subscribe"
+            }
+        }
+    },
+    "Header": {
+        "links": {
+            "catalog": "Catalog",
+            "why-we": "Why us",
+            "why-do-it": "How we do it"
+        }
+    },
+    "Footer": {
+        "links": {
+            "catalog": "Catalog",
+            "why-we": "Why us",
+            "why-do-it": "How we do it"
+        }
+    }
+}

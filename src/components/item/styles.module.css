@@ -1,0 +1,84 @@
+.wrapper {
+    width: 340px;
+    height: 510px;
+    background-color: var(--contentBgColor);
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.info {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: var(--primaryInvertColor);
+}
+
+.info > h3 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    letter-spacing: .02rem;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    color: var(--actionColor);
+}
+
+.info > span {
+    margin-top: 5px;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+}
+
+.info > a {
+    margin-top: auto;
+}
+
+@media (max-width: 650px) {
+    .wrapper {
+        width: 280px;
+        height: 480px;
+        background-color: var(--contentBgColor);
+        border-radius: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .image {
+        position: relative;
+        width: 240px;
+        height: 240px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+}

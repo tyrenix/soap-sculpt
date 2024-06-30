@@ -1,0 +1,84 @@
+.mainWrapper {
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: var(--appWidth);
+    height: 100%;
+    display: flex;
+}
+
+.left {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left > h2 {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    color: var(--actionColor);
+    background: linear-gradient(var(--actionColor), var(--accentColor));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.left > p {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    font-weight: 400;
+    color: var(--primaryInvertColor);
+}
+
+.left > a {
+    height: 60px;
+    width: 300px;
+    margin-top: 100px;
+}
+
+.right {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right > img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 930px) {
+    .mainWrapper {
+        height: auto;
+    }
+
+    .wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .left {
+        margin-top: 1rem;
+    }
+
+    .right > img {
+        width: 500px;
+        height: auto;
+    }
+}
